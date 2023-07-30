@@ -35,7 +35,7 @@ export const OpenAIModels: Record<OpenAIModelID, OpenAIModel> = {
   [OpenAIModelID.GPT_3_5_16_CONTEXT]: {
     id: OpenAIModelID.GPT_3_5_16_CONTEXT,
     name: "GPT-3.5 16k context",
-    maxLength: 12000,
+    maxLength: 48000,
     tokenLimit:16000
   },
   [OpenAIModelID.GPT_4]: {
